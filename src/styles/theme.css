@@ -1,0 +1,15 @@
+:root {
+    --bg-color-theme1: #ccc;
+    --bg-color-theme2: #550000;
+
+    --color-theme1: #000;
+    --color-theme2: #fff;
+
+    --bg-color: var(--bg-color-theme1);
+    --color: var(--color-theme1);
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color);
+}
